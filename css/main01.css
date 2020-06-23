@@ -1,0 +1,195 @@
+@font-face {
+  font-family: fbspaceren;
+  src: url(fonts/fbspaceren-regular-webfont.ttf);
+}
+@media (max-width:600px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. /*/
+  .visibledevice {display:none;}
+  .visibledesktop {display:flex;}
+
+  html {
+    font-size: 10px;
+    line-height: normal;
+    font-family: fbspaceren ;
+  }
+  body {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .main-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (min-width:601px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. /*/
+  .visibledevice {display:none;}
+  .visibledesktop {display:flex;}
+
+  html {
+    font-size: 16px;
+    line-height: normal;
+    font-family: fbspaceren ;
+  }
+  body {
+    max-width: 1170px;
+    min-width: 600px;
+    margin: auto;
+  }
+}
+
+
+
+body {
+  direction: rtl;
+  text-align: right;
+
+}
+
+.hdr-cont {
+  display: block;
+  background-color: #153958;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+.hdr-row {
+  color: #FFFFFF;
+  line-height: 1.2;
+  text-align: center;
+  padding: 0.5em 2em 0.5em 2em;
+  font-size: 1.5em;
+}
+
+.cust-det {
+  width: 100%;
+  background-color: #006DB8;
+  margin: 0;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cust-det-hdr {
+  background-color: #FFFFFF;
+
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+  flex-grow: 1;
+
+}
+.txt-prv {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #2a85d4;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.cust-det-data {
+  width: 85%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cust-det-ttl {
+  padding-right: 2%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1.125em;
+}
+.cust-det-col {
+  display: flex;
+  flex-flow: column ;
+}
+
+.cust-det-row {
+  display: flex;
+  flex-flow: row wrap;
+
+  padding: 0.2em 0 0.2em 0;
+}
+
+.cust-det-cell {
+  color: #FFFFFF;
+
+}
+.bld {
+  font-weight: bold;
+}
+
+.col-sml {
+  width: 45%;
+}
+
+.col-lrg {
+  width: 55%;
+}
+
+.col-3-1{
+  width:30%;
+}
+.col-3-2{
+  width:40%;
+}
+
+.cust-det-mbl {
+  display: none;
+  width: inherit;
+}
+
+.bll-hdr{
+
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  border: red solid 1px;
+}
+.bll-row {
+  display: flex;
+  flex-flow: row;
+  align-self: center;
+  justify-content: center;
+  width: 90%;
+  border: #263e93 solid 1px;
+  padding: 1%;
+}
+
+.bll-ttl {
+
+}
+
+.bll-prd-cell {
+  display: table-cell;
+  flex-grow: 3;
+}
+.bll-prd {
+  flex-grow: 2;
+}
+.ttl-col {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+}
+
+.lbl {
+  flex-grow: 2;
+}
+.smth {
+  background: url(https://dl.dropbox.com/s/saa9hg5dh34y77r/Photo%2029-12-19%207%2042%2044%20PM.jpg?dl=0);
+  width: 10em;
+  height: 0.5em;
+  transform: rotate(175deg) skew(80deg);
+}
+
+
+
+
+
+

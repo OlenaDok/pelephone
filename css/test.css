@@ -1,0 +1,54 @@
+@font-face {
+   font-family: fbspaceren;
+   src: url(fonts/fbspaceren-regular-webfont.ttf);
+}
+
+@font-face {
+   font-family: fbspaceren;
+   src: url(fonts/fbspaceren-bold-webfont.ttf);
+   font-weight: bold;
+}
+
+.plfnt-regular {
+		font-family: fbspaceren;
+}
+
+@media (max-width: 600px) {
+  .display_desktop {
+	  display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .display_phone {
+	  display: none;
+  }
+}
+
+
+.plbg-ligthblue {
+	background-color: #DFF1FF;
+}
+
+.plfnt-ligthblue {
+	color: #DFF1FF;
+
+}
+
+.plbg-blue {
+	background-color: #006db8;
+}
+
+.plfnt-blue {
+	color: #006db8;
+}
+
+
+.display_phone .fa {
+  transition: .3s transform ease-in-out;
+}
+
+.display_phone .collapsed .fa {
+  transform: rotate(90deg);
+}
+
